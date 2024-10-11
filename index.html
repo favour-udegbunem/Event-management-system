@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookOrdering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <h1 class="h">Welcome to our event management system</h1>
+        <div class="header__container">
+        <h1 class="h-1">Add an Attendee</h1>
+        <input type="text" placeholder="Antendee name" id="input">
+        <button id="btn-box">Add Attendee</button>
+
+        <div class="header__content">
+        <h1 class="h-2">Search an Attendee</h1>
+        <input type="text" placeholder="Enter Attendee Name" id="input-1">
+        <button id="btn">Search Attendee</button>
+        <div id="response"></div>
+
+        <div class="header__content-1">
+            <button id="myBtn">
+                Attendee List
+            </button>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Attendees Added Successfully</h2>
+                        <div id="response-1"></div>
+                      </div>
+          
+                    </div>
+                  
+                  </div>
+                  <div class="header__content-2">
+                    <h1 class="h-3">Remove Attendee</h1>
+                    <input type="text" placeholder="Enter Attendee Name" id="input-3">
+                    <button id="btn-bol">Remove Attendee</button>
+                    <div id="response-3"></div>
+                  </div>
+    
+        </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="app.js"></script>
+</body>
+</html>
